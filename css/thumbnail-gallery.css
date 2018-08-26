@@ -1,0 +1,107 @@
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.form-estilo{
+  font-family: 'Open Sans Condensed', arial, sans;
+  width: 800px;
+  padding: 30px;
+  background: #FFFFFF;
+  margin: 50px auto;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.form-estilo h2{
+  background: #4D4D4D;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #b3b3b3;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px;
+  margin: -30px -30px 30px -30px;
+}
+.form-estilo input[type="text"],
+.form-estilo input[type="date"],
+.form-estilo input[type="datetime"],
+.form-estilo input[type="email"],
+.form-estilo input[type="number"],
+.form-estilo input[type="search"],
+.form-estilo input[type="time"],
+.form-estilo input[type="url"],
+.form-estilo input[type="password"],
+.form-estilo textarea,
+.form-estilo select 
+{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  display: inline-block;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  margin-bottom: 10px;
+  font: 16px Arial, Helvetica, sans-serif;
+  height: 45px;
+}
+.form-estilo textarea{
+  overflow: hidden;
+}
+.form-estilo input[type="button"], 
+.form-estilo input[type="submit"]{
+  -moz-box-shadow: inset 0px 1px 0px 0px #3cbe5a;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #3cbe5a;
+  box-shadow: inset 0px 1px 0px 0px #3cbe5a;
+  background-color: #28a745;
+  border: 1px solid #28a745;
+  display: inline-block;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 14px;
+  padding: 8px 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.form-estilo input[type="button"]:hover, 
+.form-estilo input[type="submit"]:hover {
+  background:linear-gradient(to bottom, #28a745 5%, #28a745 100%);
+  background-color:#28a745;
+}
+.etiqueta{    
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #797979;
+  display: inline-block;
+  width: 100%;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.card-header-gray{
+  background-color:#4D4D4D;
+  border-bottom:3px solid #BBB;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Roboto', sans-serif;
+  margin-top:0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #c5c5c5;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 10px;
+  overflow:hidden;
+  -webkit-transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
